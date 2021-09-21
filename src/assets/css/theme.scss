@@ -1,0 +1,36 @@
+$--default-color: #f36c28;
+
+.header-name {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 15px;
+    margin: 15px 0;
+    border-left: 3px solid #f36c28;
+}
+
+.search-form {
+    padding: 0 15px;
+    border-left: 1px solid #EBEEF5;
+    border-right: 1px solid #EBEEF5;
+    .el-collapse-item__header {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .el-form {
+        display: inline-block;
+        width: 100%;
+        .el-input {
+            width: 250px;
+            min-width: 220px;
+        }
+    }
+    .form-contain {
+        padding: 0 55px;
+    }
+    .form-submit {
+        text-align: right;
+    }
+}
+.btn-lists {
+    margin: 20px 0;
+}
